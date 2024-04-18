@@ -1,0 +1,114 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #999;
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  background: #fff;
+  border: 10px solid #999;
+  float: left;
+  font-size: 10rem;
+  font-weight: bold;
+  height: 200px;
+  margin-left: -10px;
+  margin-bottom: -10px;
+  text-align: center;
+  width: 200px;
+}
+
+.x {
+  color: #999;
+}
+
+.o {
+  color: #eee;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btn-group {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.btn {
+  display: block;
+  width: 300px;
+  height: 100px;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #999;
+  margin: 10px;
+}
+
+.undo {
+  background-color: #eee;
+}
+
+.undo:hover {
+  background-color: #e2e2e2;
+}
+
+.redo {
+  background-color: #777;
+}
+
+.redo:hover {
+  background-color: #888;
+}
+
+.restart {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.9;
+}
+
+.restart-none {
+  display: none;
+}
+
+.restart h2:hover {
+  cursor: pointer;
+}
+
+.btn-restart {
+  margin-top: 2rem;
+  font-size: 7rem;
+  letter-spacing: 5rem;
+  color: #000;
+  font-weight: bold;
+  background-color: #fff;
+  padding-left: 5rem;
+}
+
+.restart p:hover {
+  cursor: pointer;
+}
